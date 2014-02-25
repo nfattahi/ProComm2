@@ -1,0 +1,65 @@
+body {font-size: 1em;line-height: 20px;}
+h3 {font-size: 20px;}
+h1, h2, h3 {line-height: 40px;}
+div {font-family: arial}
+select {width: auto; height: auto;background-color: #fff;border: 1px solid #ccc;padding: 0;margin-bottom: 5px;}
+input[type="checkbox"] {margin-top: 0;margin-bottom: 5px;}
+
+#module-wrapper {width: 800px;margin: 20px auto;}
+#header {background-color: #E8D7A2; padding: 10px; 
+			box-shadow: 0px 0px 0px 1pt #E8D7A2; border-radius: 10px 10px 0 0;min-height: 20px;
+			font-size:80%}
+#header #chapter {float:left;width:30%;}
+#header #exercise {float:left;width:50%}
+#header #part {float:right}
+#body {min-height: 300px; outline: 1px solid #E8D7A2;padding-bottom: 0;overflow: hidden;width: 100%;}
+#instructions {width: 40%;float: left;
+				margin-left:2%;margin-right:0px;margin-top:0%;margin-bottom:15px;
+				min-height:300px}
+#instructions-box {border: 1px solid #232323;min-height: 300px;padding:10px;max-height:300px;
+					font-size:12px;border-radius: 10px;line-height:150%;overflow:auto}
+#dialouge {width: 53%;float: right;
+			margin: 2%;margin-top:0%;margin-bottom:15px;
+			min-height:300px;}
+#dialouge-box {border: 1px solid #232323;min-height: 250px;padding:10px;max-height:300px;
+				position:relative;border-radius: 10px;background-color:#ccc;overflow:auto}
+#lesson-desc { font-size:150%; font-style:italic; text-align: center; color:#393 }
+#lesson-desc-translation { font-size:110%; font-style:italic; text-align: center; color:#333 }
+#lesson-controls {position:absolute;bottom:10px;text-align: center;
+					width:95%;}
+#lesson-controls button {min-width:140px; margin-top:4em}
+#footer {background-color: #E8D7A2; padding: 10px;
+			box-shadow: 0px 0px 0px 1pt #E8D7A2; border-radius: 0 0 10px 10px;font-size:80%}
+#extra_recording_time_control {margin-right:5em;}
+#audio {/*margin:10px;*/ }
+#player2 { width: 100% }
+#restart { float:left; display:inline; }
+#pausebutton { float:right; display:inline; }
+#wami { /* opacity:0; */ 
+		position: fixed;
+		z-index: 11;
+		top: 20%;
+		left: 20%;
+		text-align:center; }
+#progressbar_foreground { z-index:10; display:inline; font-size:80%; 
+	background-color:rgba(0,0,0,0); vertical-align:middle; 
+	position: absolute;
+	margin-top: 7px;
+	margin-left: 130px;
+	font-weight: bold;
+	color: #333;
+ }
+ .hidden_elements {
+ 	visibility:hidden;
+ }
+ 
+#progressbar .ui-progressbar-value {
+	background-color: #fc9; margin: 0px;
+}
+#progressbar {
+	border:1px solid #c33; background-color: #ccc; border-radius: 5px;
+}
+
+#messagebox {clear: both;margin-bottom: 0;}
+.alert {margin-bottom: 0;}
+.alert ul {list-style: none;}
